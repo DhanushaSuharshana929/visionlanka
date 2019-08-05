@@ -1,0 +1,1115 @@
+/*
+* large screen fixing
+*/
+@media only screen and  (min-width: 1000px) and (max-width: 1340px){
+    .site-header.header-one {
+        background: #002C42;
+    }
+    .site-header.header-one .header-navigation,
+    .site-header.header-one .top-bar {
+        max-width: 1920px;
+        margin: auto;
+    }
+    .site-header.header-one .container-fluid {
+        background: #fff;
+    }
+
+    .main-title-2 .span-1{
+        right: 70px;
+        font-size: 50px;
+        top: -17px;
+    }
+    .main-title-2 .span-2{
+        right: 127px;
+        font-size: 50px;
+    }
+
+    .attraction .text-block{
+        padding-bottom: 0px;
+    }
+    .attraction .text-block h3{
+        margin-top: 0px;
+        margin-bottom: 3px;
+        font-size: 24px;
+    }
+    .attraction .text-block p{
+        margin-top: 0px;
+        width: 73%; 
+    }
+
+}
+@media(min-width: 1921px) {
+    .site-header.header-one {
+        background: #002C42;
+    }
+    .site-header.header-one .header-navigation,
+    .site-header.header-one .top-bar {
+        max-width: 1920px;
+        margin: auto;
+    }
+    .site-header.header-one .container-fluid {
+        background: #fff;
+    }
+
+}
+
+/*
+* expandable menu started
+*/
+
+@media (max-width: 1199px) {
+    .header-navigation {
+        margin-bottom: 0;
+    }
+
+    .logo-box {
+        width: 100%;
+        float: none;
+        margin: 0 !important;
+    }
+
+    .navigation-box {
+        margin: 0;
+    }
+
+    .navbar-expand-lg .menu-toggler {
+        display: block;
+        margin-right: 0;
+        border-color: #fff;
+        background-color: transparent !important;
+        margin: 20px 0;
+        color: #fff;
+        border: none;
+        font-size: 28px;
+        float: right;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .menu-toggler:hover {
+        border-color: #00AD4D;
+    }
+
+    .menu-toggler .icon-bar {
+        background: #fff;
+    }
+
+    .menu-toggler:hover .icon-bar {
+        background: #00AD4D;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        padding-bottom: 0;
+        overflow: auto !important;
+        width: 100%;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+        background: transparent;
+        padding: 0px 0px !important;
+        padding-bottom: 0px !important;
+        margin: 0;
+        background: #000;
+        transition: all .5s ease;
+        height: 0;
+    }
+
+    .navbar-expand-lg .navbar-collapse.showen {
+        display: block !important;
+        height: auto;
+        max-height: 70vh;
+    }
+
+    .navbar-collapse.show {
+        overflow-y: auto;
+    }
+
+    .header-navigation .nav {
+        width: 100%;
+        text-align: left;
+    }
+
+    .header-navigation .nav>li {
+        display: block;
+        padding: 0 !important;
+        width: 100%;
+        float: none;
+    }
+
+    .header-navigation .nav>li+li {
+        margin-left: 0 !important;
+    }
+
+    .header-navigation .nav>li>a {
+        padding: 8px 0;
+    }
+
+    .header-navigation .right-box.nav {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-navigation .right-box.nav>li>a {
+        border: none !important;
+        padding: 8px 0;
+        color: #fff;
+    }
+
+    .header-navigation .nav>li>a:after {
+        display: none;
+    }
+
+    .header-navigation .nav.navigation-box+.nav {
+        border-top: 1px dashed #282828;
+    }
+
+    .header-navigation .navigation-box>li>.sub-menu,
+    .header-navigation .navigation-box>li>.sub-menu>li>.sub-menu {
+        position: relative !important;
+        width: 100% !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        transition: none !important;
+        display: none;
+        float: none !important;
+        margin: 0;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    .header-navigation .navigation-box>li>.sub-menu>li>a::after {
+        display: none;
+    }
+
+    .header-navigation ul.navigation-box>li+li {
+        padding: 0 !important;
+        border-top: 1px solid rgba(255, 255, 255, .1);
+        display: block;
+        float: none;
+    }
+
+    .header-navigation .nav>li.show-mobile {
+        display: none;
+    }
+
+    .header-navigation ul.navigation-box>li>a,
+    .header-navigation .right-box.nav>li>a {
+        padding: 0;
+        display: block;
+        color: #fff;
+        padding: 16px 0 16px 20px !important;
+        transition: background 0.4s ease 0s;
+        text-transform: capitalize;
+    }
+
+    .header .stricky-fixed.header-navigation .nav>li {
+        padding: 0 !important;
+    }
+
+    .header-navigation ul.navigation-box li a .sub-nav-toggler {
+        background-color: black;
+        background-image: none;
+        border: 1px solid #000;
+        border-radius: 4px;
+        padding: 9px 9px;
+        position: absolute;
+        top: 14px;
+        right: 15px;
+        /*margin-top: 8px;*/
+        margin-right: 0px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .header-navigation .navigation-box .sub-nav-toggler .icon-bar {
+        background-color: #fff;
+        border-radius: 1px;
+        display: block;
+        height: 1px;
+        width: 20px;
+    }
+
+    .header-navigation .navigation-box .sub-nav-toggler .icon-bar+.icon-bar {
+        margin-top: 4px;
+    }
+
+    .header-navigation .container .right-side-box {
+        top: 10px;
+        right: 15px;
+        transform: translateY(0%)
+    }
+
+    .header-navigation .container {
+        display: block;
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .header-navigation .container .logo-box {
+        position: relative;
+        top: 0;
+        left: 0;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        float: none;
+        padding-right: 145px;
+    }
+
+    .header-navigation .container .logo-box .navbar-brand {
+        float: left;
+        padding: 20px 0;
+    }
+
+    .header-navigation .container .logo-box .navbar-toggler {
+        float: left;
+    }
+
+    .header-navigation ul.navigation-box {
+        display: block;
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .header-navigation ul.navigation-box>li {
+        padding: 0;
+        display: block;
+    }
+
+    .header-navigation ul.navigation-box>li>a {
+        display: block;
+        padding: 13px 30px;
+    }
+
+    .header-navigation ul.navigation-box>li>a:after {
+        display: none;
+    }
+
+    .header-navigation ul.navigation-box>li+li {
+        margin: 0;
+    }
+
+    .header-navigation .main-navigation {
+        float: none;
+        width: 100%;
+        display: none;
+        text-align: left;
+        background: #e6ede7;
+        max-height: 70vh;
+        overflow-y: scroll;
+    }
+
+    .header-navigation .container .menu-toggler {
+        display: block;
+    }
+
+    .header-navigation.stricky-fixed ul.navigation-box>li {
+        padding: 0;
+    }
+
+    .header-navigation .container .logo-box .navbar-brand {
+        background-color: transparent;
+    }
+
+    .header-navigation .container .menu-toggler {
+        float: left;
+        color: #fff;
+        margin-left: 30px;
+    }
+
+    .header-navigation .container .logo-box {
+        padding-right: 0 !important;
+    }
+
+    .header-navigation {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .site-header.header-one .header-navigation .container .right-side-box .quote-btn {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+
+    .site-header.header-one .header-navigation .container {
+        padding-left: 0;
+    }
+
+    .site-header.header-one .top-bar .left-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .site-header.header-two .header-navigation .container .menu-toggler {
+        float: right;
+        margin: 36px 0;
+        color: #fff;
+    }
+
+    .site-header.header-two .header-navigation ul.navigation-box>li {
+        padding: 0 !important;
+    }
+
+    .site-header.header-three .header-navigation .container .menu-toggler {
+        float: right;
+        margin: 36px 0;
+    }
+    .site-header.header-three .header-navigation .container .logo-box {
+        padding-right: 200px !important;
+    }
+    .site-header.header-three .header-navigation .container .right-side-box {
+        top: 28px;
+    }
+    .site-header.header-three .header-navigation .main-navigation {
+        text-align: left;
+    }
+    .site-header.header-three .header-navigation ul.navigation-box > li {
+        padding: 0;
+    }
+    .site-header.header-three .header-navigation ul.navigation-box > li + li {
+        margin-left: 0;
+    }
+    .site-header.header-three .header-navigation.stricky-fixed ul.navigation-box > li {
+        padding: 0;
+    }
+
+    .site-header.header-four .header-navigation .container .menu-toggler {
+        margin-left: 0;
+    }
+    .site-header.header-four .header-navigation ul.navigation-box > li {
+        padding: 0;
+    }
+    .site-header.header-four .header-navigation .main-navigation {
+        text-align: left;
+    }
+    .site-header.header-four .header-navigation ul.navigation-box > li + li {
+        margin-left: 0;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .site-header.header-one .header-navigation .container {
+        max-width: calc(100% - 100px);
+    }
+
+    .site-header.header-one .top-bar .single-header-contact-info+.single-header-contact-info {
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+    .main-title span {
+        left: 0%;
+        font-size: 65px;
+
+    }
+    .main-title span{
+        top: -24px;
+    }
+}
+
+@media (max-width: 359px) {
+
+    .main-title span {
+        left: 0%;
+        font-size: 56px;
+        top: -1px;
+
+    }
+
+    .cards figure a {
+
+        font-size: 13px;
+
+    }
+    .attr {
+        left: 40% !important;
+    }
+    .ab-right-text {
+        position: relative;
+        height: none !important; 
+    }
+    .ab-right-text{
+        padding: 23px 0px 0px 0px;
+        background: #e1fce8;
+        height: 1050px;
+    }
+}
+
+@media(max-width: 767px) {
+    .site-header.header-one .top-bar .right-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .site-header.header-one .top-bar .single-header-contact-info {
+        width: 50%;
+        float: left;
+    }
+
+    .site-header.header-one .top-bar .single-header-contact-info{
+        margin-left: 0;
+        padding-left: 0;
+        border: none;
+    }
+
+    .site-header.header-one .header-navigation .container {
+        max-width: 100%;
+    }
+
+}
+
+/*
+* main style started
+*/
+
+@media(max-width: 1199px) {
+    img {
+        max-width: 100%;
+    }
+    .site-header.header-two .top-bar .single-header-contact-info{
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+
+    .site-header.header-three .top-bar:before, .site-header.header-three .top-bar:after {
+        width: 100%;
+        height: 50%;
+    }
+    .site-header.header-three .top-bar:before{
+        top:0;
+    } 
+    .site-header.header-three .top-bar:after {
+        top: auto;
+        bottom: 0;
+    }
+    .site-header.header-three .top-bar [class*=float-] {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 991px) {
+
+    .site-header.header-three .top-bar .single-header-contact-info{
+        padding-left: 25px;
+    }
+    .site-header.header-four .lower-bar .container .logo-box {
+        position: relative;
+        top: auto;
+        left: auto;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        transform: translate(0, 0);
+        width: 100%;
+        text-align: center;
+        margin-top: 6px !important;
+        margin-bottom: 7px !important;
+        display: block;
+    }
+    .site-header.header-four .lower-bar .container [class*=float-] {        
+        width: 100%;
+        text-align: center;
+    }
+    .site-header.header-four .lower-bar .single-header-contact-info {
+        margin-left: 30px;
+    }
+    .footer-content.footer-left{
+        margin-left: -25px;
+    }
+    .footer-content{
+        margin-left: -10px;
+    }
+    .footer-contact{
+        margin-left: -10px;
+    }
+    .welcome-res{
+        padding: 5px;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .site-header.header-two .top-bar .single-header-contact-info .text-block p {
+        font-size: 14px;
+    }
+
+    .site-header.header-two .top-bar .single-header-contact-info {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .site-header.header-two .top-bar [class*=float-] {
+        width: 100%;
+        text-align: center;
+    }
+
+    .site-header.header-two .top-bar [class*=float-right] {
+        display: none;
+    }
+
+    .site-header.header-two .top-bar .single-header-contact-info{
+        margin-left: 0;
+        border: none;
+    }
+
+    .site-header.header-three .top-bar .bootstrap-select:not(.input-group-btn), .bootstrap-select[class*=col-] {
+        vertical-align: text-bottom;
+    }
+    .site-header.header-three .top-bar .single-header-contact-info {
+        padding-top: 0;
+    }
+    .site-header.header-three .top-bar .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+        margin-right: 30px;
+    }
+    .site-header.header-three .top-bar:before, .site-header.header-three .top-bar:after {
+        display: none;
+    }
+    .site-header.header-three .top-bar .left-content p a {
+        color: #002c42;
+    }
+    .site-header.header-four .top-bar{
+        height: 35px;
+    }
+    .top-bar-socail li{
+        padding-right:3px;
+    }
+    .top-bar-socail li a{
+        font-size: 16px;
+        padding-left: 6px;
+
+    }
+    .top-bar-flag li{
+        padding-right:4px;
+    }
+    .as-content{
+        display: none;
+    }
+    .w-bg{
+        right: 0;
+    }
+    .r-left{
+        left: 0;
+    }
+
+    .ab-left-text{
+        padding: 0px 10px 3px 10px;
+        background: #032603;
+        height: 100%;
+    }
+    .ab-right-text{
+        padding: 1px 21px 26px 14px;
+    }
+    .g-pd{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .social-media li{
+        margin-right: 9px;
+        height: 33px;
+        width: 33px;
+    }
+    .social-media li i {
+        text-align: center;
+        font-size: 18px;
+        line-height: 31px;
+        font-weight: 600;
+        padding-left: 6px;
+    }
+    .r-c-right{
+        right: 0%!important;
+    }
+    .contact-section{
+        padding: 10px;
+    }
+    .it-br{
+        padding: 0px 0px 0px 0px;
+        background: none;
+    }
+    .main-title h3{
+        font-size: 31px;
+    }
+    .contact-img{
+        width: 25%!important;
+        float: none!important;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .site-header.header-one .stricky-menu.stricky-fixed {
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .site-header.header-one .top-bar .single-header-contact-info {
+        width: 100%;
+    }
+
+    .site-header.header-one .top-bar .single-header-contact-info:last-child {
+        display: block;
+    }
+
+    .single-blog-style-one .text-block .upper-block {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .site-header.header-three .header-navigation .container .logo-box {
+        padding-right: 0 !important;
+    }
+    .site-header.header-three .header-navigation .container .right-side-box {
+        display: none;
+    }
+    .site-header.header-four .lower-bar .left-content {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .site-header.header-four .lower-bar .right-content {
+        margin-bottom: 30px;
+    }
+    .site-header.header-four .lower-bar .single-header-contact-info {
+        /*        display: block;*/
+        padding: 0;
+    }
+    .site-header.header-four .lower-bar .single-header-contact-info {
+        /*        margin: 0;
+        */        margin-top: 12px;
+        right: 40px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .site-header.header-one .header-navigation .container .right-side-box .quote-btn {
+        display: none;
+    }
+    .site-header.header-one .header-navigation .container .right-side-box {
+        top: 20px;
+        right: 20px;
+    }
+
+    .site-header.header-two {
+        position: relative;
+        background: rgba(0, 44, 66, 1);
+    }
+    .site-header.header-two .top-bar [class*=float-left] {
+        margin-bottom: 10px;
+    }
+
+    .site-header.header-three .top-bar .left-content p {
+        font-size: 14px;
+    }
+    .site-header.header-four .lower-bar .single-header-contact-info{
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 340px) and (max-width: 375px){
+
+    .mg-top-50 {
+        margin-top: 22px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -25px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .section-07 .tripadvisor-testimonials {
+        top: 1970px;
+    }
+    .cards.bg-overlay {
+        /*        height: 680px;*/
+    }
+    .testimonial {
+        text-align: center;
+        margin-left: -12px;
+    }
+    .description {
+        padding: 5px;
+
+    }
+    .ab-right-text {
+        padding: 20px 0px 26px 0px;
+        height: 100%;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 390px){
+    .mg-top-50 {
+        margin-top: 22px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -25px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .section-07 .tripadvisor-testimonials {
+        margin-top: 135%;
+    }
+    .cards.bg-overlay {
+        height: 740px;
+    }
+    .testimonial {
+        text-align: center;
+        margin-left: 8px;
+    }
+    .description {
+        padding: 5px;
+
+    }
+    .ab-right-text {
+        padding: 20px 0px 26px 0px;
+        height: 100%;
+    }
+    .mg-top-50 img{
+        margin-left: 30px;
+    }
+    .tripadvisor-testimonials .testimonial.t-slide {
+        margin-left: -5px;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 400px){
+    .mg-top-50 {
+        margin-top: 25px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -20px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .mg-top-50 img{
+        margin-left: 30px;
+    }
+    .section-07 .tripadvisor-testimonials {
+        margin-top: 125%;
+        margin-left: 0px;
+    }
+    .cards.bg-overlay {
+        height: 720px;
+    }
+    .description {
+        padding: 5px;
+    }
+    .ab-right-text {
+        padding: 20px 0px 48px 0px;
+        height: 100%;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    } 
+}
+@media (min-width: 401px) and (max-width: 414px){
+    .mg-top-50 {
+        margin-top: 25px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -20px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .mg-top-50 img{
+        margin-left: 30px;
+    }
+    .section-07 .tripadvisor-testimonials {
+        margin-top: 115%;
+        margin-left: 8px;
+    }
+    .cards.bg-overlay {
+        height: 740px;
+    }
+    .description {
+        padding: 5px;
+    }
+    .ab-right-text {
+        padding: 20px 0px 48px 0px;
+        height: 100%;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 415px) and (max-width: 440px){
+    .mg-top-50 {
+        margin-top: 25px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -20px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .mg-top-50 img{
+        margin-left: 30px;
+    }
+    .section-07 .tripadvisor-testimonials {
+        margin-top: 105%;
+        margin-left: 20px;
+    }
+    .cards.bg-overlay {
+        height: 780px;
+    }
+    .description {
+        padding: 5px;
+    }
+    .ab-right-text {
+        padding: 20px 0px 48px 0px;
+        height: 100%;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    } 
+}
+@media (min-width: 441px) and (max-width: 500px){
+    .mg-top-50 {
+        margin-top: 25px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -20px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .mg-top-50 img{
+        margin-left: 15%;
+    }
+    .section-07 .tripadvisor-testimonials {
+        margin-top: 80%;
+        margin-left: 50px;
+    }
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .description {
+        padding: 5px;
+    }
+    .ab-right-text {
+        padding: 20px 0px 48px 0px;
+        height: 100%;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    } 
+}
+@media (min-width: 501px) and (max-width: 530px){
+    .mg-top-50 {
+        margin-top: 25px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -20px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .mg-top-50 img{
+        margin-left: 15%;
+    }
+    .section-07 .tripadvisor-testimonials {
+        margin-top: 65%;
+        margin-left: 70px;
+    }
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .description {
+        padding: 5px;
+    }
+    .ab-right-text {
+        padding: 20px 0px 48px 0px;
+        height: 100%;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    } 
+}
+@media (min-width: 531px) and (max-width: 575px){
+    .mg-top-50 {
+        margin-top: 25px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -20px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .mg-top-50 img{
+        margin-left: 15%;
+    }
+    .section-07 .tripadvisor-testimonials {
+        margin-top: 60%;
+        margin-left: 90px;
+    }
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .description {
+        padding: 5px;
+    }
+    .ab-right-text {
+        padding: 20px 0px 48px 0px;
+        height: 100%;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    } 
+}
+@media (min-width: 575px) and (max-width: 599px){
+    .mg-top-50 {
+        margin-top: 25px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -20px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .mg-top-50 img{
+        margin-left: 15%;
+    }
+    .section-07 .tripadvisor-testimonials {
+        margin-top: 60%;
+        margin-left: 90px;
+    }
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .description {
+        padding: 5px;
+    }
+    .ab-right-text {
+        padding: 20px 0px 48px 0px;
+        height: 100%;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    } 
+}
+@media (min-width: 600px) and (max-width: 767px){
+    .mg-top-50 {
+        margin-top: 25px;
+    }
+    .main-title h3 {
+        font-size: 28px;
+    }
+    .title-res{
+        margin-top: -20px;
+        text-align: center;
+    }
+    .description .vision-text {
+        text-align: justify;
+    }
+    .description-list ol {
+        padding-left: 15px;
+    }
+    .mg-top-50 img{
+        margin-left: 15%;
+    }
+    .section-07 .tripadvisor-testimonials {
+        margin-top: 60%;
+        margin-left: 90px;
+    }
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .description {
+        padding: 5px;
+    }
+    .ab-right-text {
+        padding: 20px 0px 48px 0px;
+        height: 100%;
+    }
+    .ab-right-text img {
+        margin-bottom: 15px;
+    } 
+}

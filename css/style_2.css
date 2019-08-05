@@ -1,0 +1,351 @@
+.section.section-07 {
+    margin-bottom: 240px;
+    margin-top: 40px;
+}
+.section.section-07 .award-main-block {
+    background: #00af87;
+    padding: 35px 0 120px;
+}
+.award-inner-block {
+    text-align: center;
+    font-size: 17px;
+}
+.award-inner-block {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0 40px;
+    font-size: 17px;
+}
+.invert-text, .invert-text h1, .invert-text h2, .invert-text h3, .invert-text h4, .invert-text h5, .invert-text p {
+    color: #fff;
+}
+.tripadvisor-testimonials {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1460px;
+    z-index: 1;
+}
+.tripadvisor-testimonials .testimonial.t-slide {
+    background: #edf9ff;
+    padding: 35px 35px 35px;
+}
+.award-inner-block::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url(../images/tp3.png);
+}
+
+.tripadvisor-testimonials .testimonial.t-slide .testimonial-heading {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    margin-bottom: 5px;
+}
+.award-inner-block p{
+    margin-left: 30px;
+}
+/*About Me*/
+.tripadvisor-testimonials .testimonial.t-slide .testimonial-name {
+    font-size: 15px;
+    font-style: italic;
+    color: rgba(64, 64, 64, 0.6);
+}
+.about-text-center {
+    display: table;
+    margin: 0 auto 30px;
+    overflow: hidden;
+}
+.about-symbol, .about-text-center, .count-ico, .count-ico i, .counter, .n-number, .social-icons li, .view-about figcaption {
+    text-align: center;
+}
+.img-office {
+    padding-left: 0;
+}
+.desc-office1.about1 {
+    margin-top: 12px;
+    text-align: justify;
+}
+.desc-office1 {
+    background: rgba(255,255,255,.9);
+    position: absolute;
+    right: 0;
+    padding: 30px;
+    opacity: .8;
+    transition: all .7s ease-in-out;
+}
+.desc-office1:hover, .img-office:hover + .desc-office1 {
+    opacity: 1;
+}
+.desc-office, .desc-office1 {
+    color: #333;
+    line-height: 24px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4);
+    float: left;
+}
+.effect-5 .img.hover .overlay a.expand.discount.textdisc{
+    margin-top:12%;
+    font-size:20px;
+    text-transform:uppercase
+}
+.effect-5 .overlay{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0;
+    margin:20px
+}
+.effect-5 .overlay a.expand{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    width:100%;
+    height:100%;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+    border-radius:0;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s
+}.effect-5 .img.hover .overlay{
+    opacity:1
+}.effect-5 .img.hover .overlay a.expand{
+    width:60px;
+    height:60px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+    border-radius:30px
+}.effect-5 .img.hover .overlay a.expand.discount{
+    border:0;
+    font-size:35px;
+    width:160px;
+    height:60px
+}
+.effects .cbp-vm-view-list .cbp-vm-image {
+    width: 46.5%;
+    float:left;
+}
+.effects .img{
+    position:relative;
+    width:100%;
+    overflow:hidden
+}
+.sub-heading1 {
+    font-size: 18px;
+    color: rgb(110, 190, 69);
+}
+.our_achivement {
+    float: left;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    background-color: #fcfcfc;
+}
+.our_achivement .box {
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.our_achivement .box i {
+    background: #08549e;
+    width: 95px;
+    height: 95px;
+    text-align: center;
+    line-height: 3.2;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/*End of About Me*/
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 825px;
+    padding-top: 50px;
+}
+.m-top{
+    margin-top: 60px;
+}
+
+/*FAQ*/
+p.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom:10px;
+    font-size: 15px;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+p.accordion.active, p.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+    content: '\2795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+    content: "\2796"; 
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    margin-bottom:10px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+/*End FAQ*/
+
+/*Sri Lanka*/
+#content {
+    margin: 0px auto;
+    padding: 10px;
+    height: auto;
+    min-height: 500px;
+    display: inline-block;
+}
+#content h3{
+    font-size: 36px;
+    color: #15ba3f;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+}
+/*End Sri Lanka*/
+
+/*Airport*/
+#content h6, .h6 {
+    font-size: 18px;
+    color: #15ba3f;
+    font-weight: bold;
+    margin: 20px auto 10px 0px;
+    padding: 0;
+}
+/*End Airport*/
+
+/*.box-toolbar {
+    background-color: #6ebe45;
+    background-image: url("images/titlebar-gradient-on.png");
+    border-bottom: 1px solid #EBEBEC;
+    color: #FEFEFE;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 7px 7px 7px 7px;
+}
+.box-body {
+    background-color: #FEFEFE;
+    overflow: hidden;
+    padding: 0 5px;
+    margin-left: 0px;
+}
+#contact_table {
+    margin: 0 auto;
+}
+#contact_table th {
+    text-align: right;
+    font-size: 12px;
+}
+#contact_table td {
+    font-size: 10px;
+}
+#contact_table .field {
+    min-width: 225px;
+    width: auto;
+    font-size: 12px;
+    padding: 3px;
+    border: 1px solid #0f6b3c;
+    outline: none;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    line-height: 12px;
+    background-color: #f0fef7;
+}*/
+
+.it-br h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.text-tour{
+    margin-left: -12px;
+    margin-right: -15px;
+}
+.more-item h4, .h4 {
+    font-size: 22px !important;
+}
+
+@media(max-width:768px) {
+    .tripadvisor-testimonials {
+        top: 2065px;
+    }
+    .trip-advisory-logo {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .award-inner-block {
+        margin-bottom: 45px;
+    }
+    .site-header.header-four .header-navigation ul.navigation-box > li > a {
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+    }
+    .section.section-07 .award-main-block {
+        background: #00af87;
+        padding: 35px 0 180px;
+    }
+    .section.section-07 {
+        margin-bottom: 180px;
+        margin-top: 40px;
+    }
+    .bg-overlay {
+        height: 740px;
+    }
+}
