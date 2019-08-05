@@ -1,0 +1,1258 @@
+.section.section-07 {
+    /*    margin-bottom: 240px;*/
+    margin-top: 40px;
+}
+.section.section-07 .award-main-block {
+    background: #00af87;
+    padding: 35px 0 120px;
+}
+.award-inner-block {
+    text-align: center;
+    font-size: 17px;
+}
+.award-inner-block {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0 50px;
+    font-size: 17px;
+    border: 1px solid white;
+}
+.invert-text, .invert-text h1, .invert-text h2, .invert-text h3, .invert-text h4, .invert-text h5, .invert-text p {
+    color: #fff;
+}
+
+.award-inner-block::before {
+    position: absolute;
+    top: -45px;
+    left: -30px;
+    content: url(../images/tp4.png);
+    background: #00af87;
+}
+
+.award-inner-block p{
+    margin-left: 30px;
+    font-family: Gadugi;
+    font-size: 15px;
+    text-align: justify;
+    padding-top:5px;
+}
+/*About Me*/
+.about-text-center {
+    display: table;
+    margin: 0 auto 30px;
+    overflow: hidden;
+}
+.about-symbol, .about-text-center, .count-ico, .count-ico i, .counter, .n-number, .social-icons li, .view-about figcaption {
+    text-align: center;
+}
+.img-office {
+    padding-left: 0;
+}
+.desc-office1.about1 {
+    margin-top: 12px;
+    text-align: justify;
+}
+.desc-office1 {
+    background: rgba(255,255,255,.9);
+    position: absolute;
+    right: 0;
+    padding: 30px;
+    opacity: .8;
+    transition: all .7s ease-in-out;
+}
+.desc-office1:hover, .img-office:hover + .desc-office1 {
+    opacity: 1;
+}
+.desc-office, .desc-office1 {
+    color: #333;
+    line-height: 24px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4);
+    float: left;
+}
+.effect-5 .img.hover .overlay a.expand.discount.textdisc{
+    margin-top:12%;
+    font-size:20px;
+    text-transform:uppercase
+}
+.effect-5 .overlay{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0;
+    margin:20px
+}
+.effect-5 .overlay a.expand{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    width:100%;
+    height:100%;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+    border-radius:0;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s
+}.effect-5 .img.hover .overlay{
+    opacity:1
+}.effect-5 .img.hover .overlay a.expand{
+    width:60px;
+    height:60px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+    border-radius:30px
+}.effect-5 .img.hover .overlay a.expand.discount{
+    border:0;
+    font-size:35px;
+    width:160px;
+    height:60px
+}
+.effects .cbp-vm-view-list .cbp-vm-image {
+    width: 46.5%;
+    float:left;
+}
+.effects .img{
+    position:relative;
+    width:100%;
+    overflow:hidden
+}
+.sub-heading1 {
+    font-size: 18px;
+    color: rgb(110, 190, 69);
+}
+.our_achivement {
+    float: left;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    background-color: #fcfcfc;
+}
+.our_achivement .box {
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.our_achivement .box i {
+    background: #08549e;
+    width: 95px;
+    height: 95px;
+    text-align: center;
+    line-height: 3.2;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.about-top{
+    margin-top: -110px;
+}
+.about-bottom-60{
+    margin-bottom: -60px;
+}
+.about-bottom-50{
+    margin-bottom: -50px;
+}
+.about-bottom-40{
+    margin-bottom: -40px;
+}
+.about-bottom-30{
+    margin-bottom: -30px;
+}
+#about-me p{
+    padding: 0px;
+}
+
+/*End of About Me*/
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), url("../images/bg/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 825px;
+    padding-top: 50px;
+}
+.m-top{
+    margin-top: 50px;
+}
+.vision-text{
+    text-align: left;
+}
+.more-item h4 {
+    font-size: 18px ;
+    text-align: left;
+}
+.more-item h3 {
+    font-size: 18px ;
+    text-align: center;
+}
+
+/*FAQ*/
+p.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom:10px;
+    font-size: 15px;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+p.accordion.active, p.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+    content: '\2795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+    content: "\2796"; 
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    margin-bottom:10px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+/*End FAQ*/
+
+/*Sri Lanka*/
+#content {
+    margin: 0px auto;
+    padding: 10px;
+    height: auto;
+    min-height: 500px;
+    display: inline-block;
+}
+#content h3{
+    font-size: 36px;
+    color: #15ba3f;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+}
+/*End Sri Lanka*/
+
+/*Airport*/
+#content h6, .h6 {
+    font-size: 22px;
+    color: #15ba3f;
+    margin: 20px auto 10px 0px;
+    padding: 0;
+}
+/*End Airport*/
+
+/*About Sri Lanka Home*/
+
+.image-blocks.image-blocks-header {
+    padding-top: 0;
+}
+.image-blocks .section-header {
+    min-height: 1216px;
+    padding-top: 97px;
+    margin-bottom: -1050px;
+}
+.image-blocks .section-header, .image-blocks .section-header .title {
+    color: #fff;
+}
+.image-blocks .section-header {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #474747;
+}
+.parallax {
+    background-image: url("../images/bg/bg-2.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.section-header {
+    display: block;
+}
+.image-blocks .section-header, .image-blocks .section-header .title {
+    color: #fff;
+}
+.section-header .title:last-child {
+    margin-bottom: 0;
+}
+.section-header .title {
+    margin-top: 0;
+    font-family: "Playfair Display", serif;
+    position: relative;
+    text-transform: uppercase;
+}
+.section-header .title span {
+    display: inline-block;
+}
+.section-header .title span {
+    color: #b58e3e;
+}
+.image-blocks .blocks {
+    margin-bottom: 0;
+}
+.image-blocks .blocks {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+.image-blocks .blocks::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: inherit;
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+.image-blocks .blocks.blocks-left .item {
+    margin-left: 50%;
+}
+.image-blocks .blocks .item {
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.image-blocks .blocks .item {
+    background-color: #eee;
+    position: relative;
+    z-index: 9;
+    order: 2;
+}
+.image-blocks .blocks .item .text {
+    padding: 70px 0;
+}
+.image-blocks .blocks.blocks-right .item {
+    margin-left: 0%;
+}
+.image-blocks .blocks.blocks-right .image {
+    right: 0%;
+}
+.image-blocks .blocks.blocks-left .image {
+    right: 50%;
+}
+
+/*End About Sri Lanka*/
+
+.it-br h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.faq .accordion {
+    cursor: pointer;
+    font-weight: 300;
+    position: relative;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-section label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.tour-inner-top{
+    background: #fff;
+    margin-top: 15px;
+}
+.tour-inner-top-1{
+    background: #fff;
+}
+.tour-content-top{
+    margin-top: 15px;
+}
+.tour-content-margin{
+    margin-top: -20px; 
+    margin-bottom: 20px;
+}
+/*View Package*/
+.thinn-tour-tips .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 13%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.thinn-tour-tips ul{
+    list-style-type: square;
+}
+.thinn-tour-tips h2{
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+.accordion hr{
+    border-top: 1px solid #9b9b9b;
+}
+.btn-primary{
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+.m-r5 {
+    margin-right: 5px;
+    color: #4ab946;
+}
+.btn-contact{
+    border: 3px solid #15ba3f;
+    color: #15ba3f;
+    margin-top: 20px;
+    padding: 10px 40px;
+}
+.sidebar .widget {
+    position: relative;
+    margin-bottom: 50px;
+}
+.sidebar .sidebar-title {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.sidebar .sidebar-title h3 {
+    font-size: 20px;
+    color: #1a1a1a;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.sidebar .sidebar-title::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 40px;
+    height: 2px;
+    background: #07a42f;
+}
+.sidebar .list {
+    position: relative;
+    margin-left: -20px;
+}
+.sidebar .list li {
+    position: relative;
+    margin-bottom: 7px;
+    line-height: 32px;
+}
+.sidebar .list li {
+    line-height: 32px;
+}
+.sidebar .list li a {
+    position: relative;
+    display: block;
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 400;
+}
+.sidebar .list li a:hover{
+    color: #428bca;
+}
+.accommodation{
+    color: #3538b0;
+    font-size: 17px;
+}
+/*End View Package*/
+.signature-img img {
+    width: 40% !important;
+    float: right !important;
+    position: relative !important;
+    height: 75px;
+    margin-top: -59px;
+}
+.projects-grid {
+    position: relative;
+    letter-spacing: 1pt;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.projects-grid img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+}
+.wd-color{
+    color: #fff;
+}
+.wd-color1{
+    color: #81cbee;
+}
+.wd-color2{
+    color: #d6ecdb;
+}
+.wd-color3{
+    color: #2e9ddf;
+}
+.wd-color4{
+    color: #a6d01f;
+}
+.wd-color5{
+    color: #5fd0c9;
+}
+.wd-color6{
+    color: #a6d01f;
+}
+.wd-color7{
+    font-family: Gadugi;
+    color: #5fd0c9;
+    font-size: 28px;
+}
+.cards-container{
+    margin-right: 9%; 
+    width: 70%;
+}
+.about{
+    left: 32%;
+    top: 80%;
+}
+.round{
+    left: 42%; 
+    top: 20%;
+}
+.tours{
+    left: 50%; 
+    top: 80%;
+}
+.attr{
+    writing-mode: vertical-rl;
+    top: 15%;
+    left: 75%;
+}
+.activities{
+    right: -25%;
+    top: 80%;
+}
+.contact-info{
+    margin-top: -15%;
+    width: 70%;
+    right: -60%;
+}
+@media(max-width:768px) {
+    .award-inner-block p {
+        text-align: center;
+    }
+
+    .trip-advisory-logo {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .award-inner-block {
+        margin-bottom: 45px;
+    }
+    .site-header.header-four .header-navigation ul.navigation-box > li > a {
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+    }
+    .section.section-07 .award-main-block {
+        background: #00af87;
+        padding: 35px 0 122px;
+    }
+    .m-top {
+        margin-top: 17px;
+    }
+    .section.section-07 {
+        /*        margin-bottom: 180px;*/
+        margin-top: 40px;
+    }
+    .attraction .image-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .accordion {
+        cursor: pointer;
+        font-weight: 300;
+        position: relative;
+        font-size: 30px;
+        color: #07a42f;
+        font-family: 'Barlow Condensed', sans-serif;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .service-sec{
+        margin-top: 20px;
+    }
+}
+/*Responsive */
+
+@media (min-width: 360px) and (max-width: 374px){
+    .cards-container {
+        margin-right: 0%;
+        width: 100%;
+    }
+    .cards figure a {
+        font-size: 26px;
+    }
+    .about {
+        left: 50%;
+        top: 80%;
+    }
+    .round {
+        left: 50%;
+        top: 80%;
+    }
+    .attr {
+        writing-mode: vertical-rl;
+        top: 5%;
+        left: 55%;
+    }
+    .activities {
+        top: 80%;
+        left: 50%;
+    }
+    /*    .round-img{
+            height: 155px;
+        }*/
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .contact-num.text-right {
+        text-align: left;
+    }
+    .contact-info {
+        margin-top: -10%;
+        right: 42%;
+    }
+    .main-title h3{
+        margin-top: 5px;
+    }
+    .about-inner{
+        margin-top: 550px;
+    }
+    .ab-top{
+        margin-top: 0px;
+    }
+    .mg-top-80{
+        margin-top: -80px;
+    }
+    .gal-mg-top-80{
+        margin-top: -80px;
+    }
+    .mg-bottom-30{
+        margin-bottom: 30px;
+    }
+    .more-item {
+        padding: 10px 20px 8px 10px;
+    }
+    .it-br h4{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .ab-right-text img {
+        width: 60%;
+        float: left;
+        position: relative;
+        margin-left: 20%;
+    }
+    .description {
+        line-height: 24px;
+        text-align: justify;
+    }
+    #google_translate_element{
+        margin-bottom: 30px;
+    }
+    .text-tour-2{
+        padding: 52px 34px 26px; 
+    }
+    .service-thumb{
+     margin-top: 30px;   
+    }
+}
+@media only screen and (min-width: 374px) and (max-width: 378px){
+    .cards-container {
+        margin-right: 0%;
+        width: 100%;
+    }
+     .service-thumb{
+     margin-top: 30px;   
+    }
+  
+}
+@media (min-width: 374px) and (max-width: 400px){
+    .cards-container {
+        margin-right: 0%;
+        width: 100%;
+    }
+    .cards figure a {
+        font-size: 26px;
+    }
+    .about {
+        left: 50%;
+        top: 80%;
+    }
+    .round {
+        left: 50%;
+        top: 80%;
+    }
+    .attr {
+        writing-mode: vertical-rl;
+        top: 5%;
+        left: 60%;
+    }
+    .activities {
+        top: 80%;
+        left: 50%;
+    }
+    /*    .round-img{
+            height: 162px;
+        }*/
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .contact-num.text-right {
+        text-align: left;
+    }
+    .contact-info {
+        margin-top: -10%;
+        right: 42%;
+    }
+    .main-title h3{
+        margin-top: 5px;
+    }
+    .about-inner{
+        margin-top: 550px;
+    }
+    .ab-top{
+        margin-top: 0px;
+    }
+    .mg-top-80{
+        margin-top: 0px;
+    }
+   .gal-mg-top-80{
+        margin-top: 22px;
+    }
+    .mg-bottom-30{
+        margin-bottom: 30px;
+    }
+    .more-item {
+        padding: 10px 0px 8px 1px;
+    }
+    .it-br h4{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .ab-right-text img {
+        width: 60%;
+        float: left;
+        position: relative;
+        margin-left: 20%;
+    }
+    .description {
+        line-height: 24px;
+        text-align: justify;
+    }
+    #google_translate_element{
+        margin-bottom: 30px;
+    }
+     .service-thumb{
+     margin-top: 30px;   
+    }
+      .simple-accordian h2{
+        font-size: 26px;
+    }
+    .text-tour-2{
+        padding: 40px 12px 22px;
+    }
+    .accordion-title{
+        font-size: 25px;
+    }
+   
+}
+
+@media (min-width: 401px) and (max-width: 414px){
+    .cards-container {
+        margin-right: 0%;
+        width: 100%;
+    }
+    .cards figure a {
+        font-size: 26px;
+    }
+    .about {
+        left: 50%;
+        top: 80%;
+    }
+    .round {
+        left: 50%;
+        top: 80%;
+    }
+    .activities {
+        top: 80%;
+        left: 50%;
+    }
+    .round-img{
+        /*        height: 180px;*/
+    }
+    .attr {
+
+        left: 60%;
+    }
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .contact-num.text-right {
+        text-align: left;
+    }
+    .contact-info {
+        margin-top: -10%;
+        right: 42%;
+    }
+    .main-title h3{
+        margin-top: 5px;
+    }
+    .about-inner{
+        margin-top: 510px;
+    }
+    .ab-top{
+        margin-top: -80px;
+    }
+    .mg-top-80{
+        margin-top: -80px;
+    }
+   .gal-mg-top-80{
+        margin-top: 22px;
+    }
+    .ab-right-text img {
+        width: 60%;
+        float: left;
+        position: relative;
+        margin-left: 20%;
+    }
+    .description {
+        line-height: 24px;
+        text-align: justify;
+    }
+    #google_translate_element{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 414px) and (max-width: 768px){
+    .awesome-place-item img{
+        width:100%;
+    }
+    .cards-container {
+        margin-right: 0%;
+        width: 100%;
+    }
+    .cards figure a {
+        font-size: 28px;
+    }
+    .about {
+        left:36%;
+        top: 80%;
+    }
+    .round {
+        left: 50%;
+        top: 80%;
+    }
+    .activities {
+        top: 80%;
+        left: 58%;
+    }
+    /*    .round-img{
+            height: 180px;
+        }*/
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .exclusive {
+        left: -7%;
+        top: 70%;
+        font-size: 30px;
+    }
+    .great {
+        writing-mode: vertical-rl;
+        top: 55%;
+        left: 80%;
+        font-size: 34px;
+        transform: rotate(180deg);
+    }
+    .attr {
+        writing-mode: vertical-rl;
+        top: 10%;
+        left: 57%;
+    }
+    .specialized {
+        left: 10%;
+        top: 68%;
+        font-size: 30px;
+    }
+    .about-inner{
+        margin-top: 350px;
+    }
+    .ab-top{
+        margin-top: 0px;
+    }
+    .mg-top-80{
+        margin-top: -80px;
+    }
+    .gal-mg-top-80{
+        margin-top: 22px;
+    }
+}
+@media (min-width: 769px) and (max-width: 900px) {
+    .awesome-place-item img{
+        width:100%;
+    }
+    .cards-container {
+        margin-right: 0%;
+        width: 100%;
+    }
+    .cards figure a {
+        font-size: 40px;
+    }
+    .about {
+        left: 22%;
+        top: 80%;
+    }
+    .round {
+        left: 50%;
+        top: 80%;
+    }
+    .activities {
+        top: 80%;
+        left: 70%;
+    }
+    .round-img{
+        height: 180px;
+    }
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .spend {
+        left: -6%;
+
+    }
+    .exclusive {
+        left: -1%;
+        top: 70%;
+        font-size: 30px;
+    }
+    .great {
+        writing-mode: vertical-rl;
+        top: 50%;
+        left: 80%;
+        font-size: 34px;
+    }
+    .attr {
+        writing-mode: vertical-rl;
+        top: 15%;
+        left: 80%;
+    }
+    .specialized {
+        left: 14%;
+        top: 68%;
+        font-size: 30px;
+    }
+    .contact-info {
+        margin-top: -15%;
+        width: 70%;
+        margin-right: -80px;
+    }
+    .g-pd {
+        width: 100%;
+    }
+    .award-inner-block {
+        margin-bottom: 35px;
+    }
+    .award-inner-block::before {
+        left: 0px;
+    }
+    .about-inner{
+        margin-top: 350px;
+    }
+    .ab-top{
+        margin-top: -80px;
+    }
+    .mg-top-80{
+        margin-top: -80px;
+    }
+    .gal-mg-top-80{
+        margin-top: -135px;
+    }
+    #google_translate_element{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 901px) and (max-width: 994px) {
+    .cards-container {
+        margin-right: 0%;
+        width: 100%;
+    }
+    .cards figure a {
+        font-size: 40px;
+    }
+    .activities {
+        top: 80%;
+        left: 70%;
+    }
+    .round-img{
+        height: 180px;
+    }
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .spend {
+        left: -6%;
+    }
+    .exclusive {
+        left: -25%;
+        top: 10%;
+        font-size: 30px;
+    }
+    .great {
+        writing-mode: vertical-rl;
+        top: 50%;
+        left: 80%;
+        font-size: 34px;
+    }
+    .attr {
+        writing-mode: vertical-rl;
+        top: 15%;
+        left: 80%;
+    }
+    .contact-info {
+        margin-top: -20%;
+        width: 70%;
+        margin-right: 15px;
+    }
+    .description {
+        text-align: justify;
+        line-height: 24px;
+        font-size: 13px;
+    }
+    .about-srilanaka-section h3 {
+        font-size: 36px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: -25px;
+    }
+    .main-title span {
+        left: -22%;
+    }
+    .trip-advisory-logo{
+
+    }
+}
+@media (min-width: 995px) and (max-width: 1024px){
+    .cards-container {
+        margin-right: 4%;
+        width: 80%;
+    }
+    .cards figure a {
+        font-size: 40px;
+    }
+    .activities {
+        top: 80%;
+        left: 70%;
+    }
+    .round-img{
+        height: 180px;
+    }
+    .cards.bg-overlay {
+        height: 100%;
+    }
+    .spend {
+        left: -6%;
+    }
+    .exclusive {
+        left: -25%;
+        top: 10%;
+        font-size: 30px;
+    }
+    .great {
+        writing-mode: vertical-rl;
+        top: 50%;
+        left: 80%;
+        font-size: 34px;
+    }
+    .row-1 .ab-left-text {
+        color: #fff;
+        height: auto;
+        padding: 2px 0px 0px 0px;
+        background:url("../images/bg/1024.jpg");
+        background-repeat: repeat, repeat;
+        background-repeat: no-repeat, repeat;
+        height: 475px;
+    }
+
+    .attr {
+        writing-mode: vertical-rl;
+        top: 15%;
+        left: 74%;
+    }
+    .contact-info {
+        margin-top: -22%;
+        width: 70%;
+        margin-right: 8px;
+    }
+    .description {
+        text-align: justify;
+        line-height: 24px;
+        font-size: 13px;
+    }
+    .about-srilanaka-section h3 {
+        font-size: 36px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: -5px;
+    }
+    .main-title span {
+        left: -22%;
+    }
+    .trip-advisory-logo{
+        /*        position: relative;*/
+        margin-left: 40%;
+        margin-top: 30px;
+    }
+    .text-tour-2{
+        float: left;
+        width: 100%;
+        padding: 25px 19px 35px;
+        margin-bottom: 5px;
+
+    }
+    .text-tour-2 h4{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+    .more-side-title{
+        margin-top: 25px !important;
+        margin-bottom: 10px !important;
+        text-align: left !important;
+    }
+    .our_achivement {
+        float: left;
+        width: 100%;
+        position: relative;
+        border-bottom: none;
+        margin-bottom: 30px;
+        padding-top: 30px;
+        background-color: transparent;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+    .cards figure a {
+        font-size: 25px;
+    }
+    .spend {
+        left: -8%;
+    }
+    .attr {
+        writing-mode: vertical-rl;
+        top: 20%;
+        left: 75%;
+    }
+    .great {
+        writing-mode: vertical-rl;
+        top: 50%;
+        left: 73%;
+        font-size: 24px;
+    }
+    .activities {
+        right: -20%;
+        top: 80%;
+    }
+    .specialized {
+        left: -17%;
+        top: 68%;
+    }
+    .trip-advisory-logo{
+        position: relative;
+        left: 40%;
+        margin-top: 30px;  
+    }
+    .text-tour-2{
+        float: left;
+        width: 100%;
+        padding: 32px 19px 11px;
+        margin-bottom: 5px;
+
+    }
+    .text-tour-2 h4{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+}
+.sidebar-widget {
+    background: #c8cac8;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.category-posts ul li {
+    padding: 8px 0;
+    border-bottom: solid 1px #ededed;
+    color: #5a5959;
+}
+.category-posts ul li {
+    padding: 8px 0;
+    border-bottom: solid 1px #a6a6a6;
+    color: #312b2b;
+    list-style-type: circle;
+}
+.category-posts ul li a{
+    color: #5b5e5b;
+    font-weight: 600;
+}
+.category-posts ul li a:hover{
+    color: #000;
+    font-weight: 600;
+}
+.gal-bottom-banner {
+    margin-bottom: -99px;
+}
+.map-img{
+    margin-left: -12px;
+    margin-right: -15px; 
+}
