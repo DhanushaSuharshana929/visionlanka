@@ -85,7 +85,7 @@ $COMMENT_OBJ = new Comments(null);
                                     </p>
                                     <div class="testimonial-content">
                                         <div class="pic">
-                                            <img class="img-circle" src="./upload/comments/<?php echo $comments["image_name"]; ?>" alt="">
+                                            <img class="img-circle" src="./upload/comments/<?php echo $comments["image_name"]; ?>" alt=" <?php echo $comments["name"]; ?>">
                                         </div>
                                         <div class="content">
                                             <h4 class="name"> <?php echo $comments["name"]; ?></h4>

@@ -18,10 +18,10 @@ $ATTRACTION2 = new Attraction(null);
         <!-- mobile responsive meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-          <meta name="theme-color" content="#15ba3f">
-        <meta name="description" content="Sri Lanka Round Tours offer private driver for round tours in Sri Lanka for safety service and Sri Lanka round tours care all who tour with Vision Sri Lanka Round Tours." http-equiv="description" />
+        <meta name="theme-color" content="#15ba3f">
+        <meta name="description" content="Sri Lanka Round Tours offer private driver for round tours in Sri Lanka for safety service and Sri Lanka round tours care all who tour with vision lanka tours"/>
         <meta name="keywords" content="sri lanka round tours, Sri lanka round tour, sri lanka round trip, sri lanka tour packages, sri lanka tours, sri lanka travel, sri lanka private tour drivers, sri lanka tour drivers, sri lanka travel agents, sri lanka budget tours, sri lanka budget taxi, holiday tours sri lanka, tour in sri lanka, tour operators in sri lanka, sri lanka round trips, day tours in Sri lanka, Vision Lanka Tours, Sri Lanka Round Tours Nuwan, Galle Tours, Unawatuna Tours, Best Safe tours in Sri Lanka, Sri Lankan Round Tours, Sri Lanka Luxury Tours, Best 10 Tours in Sri Lanka">
-      <meta name="google-site-verification" content="YCt5f9R2CwBZ4N_-vpU6J-8Z-N4WA_fFBUDtKCs-AFI" />
+        <meta name="google-site-verification" content="YCt5f9R2CwBZ4N_-vpU6J-8Z-N4WA_fFBUDtKCs-AFI" />
 
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
@@ -81,13 +81,13 @@ $ATTRACTION2 = new Attraction(null);
                             </div>
                             <div class="col-md-4">
 
-                                <img src="images/about-srilanka/lanka-map.jpg" alt=""/>
-                                 <div class="buttons-wrap text-center hidden-lg hidden-md " style="margin-top: 20px;">
+                                <img src="images/about-srilanka/lanka-map.jpg" alt="srilanka tour map"/>
+                                <div class="buttons-wrap text-center hidden-lg hidden-md " style="margin-top: 20px;">
                                     <a href="contact.php" class="q-ct sc-button m-right b-60  bg-1"> 
 
-                                      <i class="fa fa-envelope-open"></i>  <span>QUICK CONTACT US </span></a>
+                                        <i class="fa fa-envelope-open"></i>  <span>QUICK CONTACT US </span></a>
                                 </div>
-                                  
+
                             </div>
                         </div>
 
@@ -166,78 +166,7 @@ $ATTRACTION2 = new Attraction(null);
                 </div>
             </div>
 
-            <section class="cards bg-overlay parallax m-top">
-                <div class="container r-c-right cards-container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 card-pd projects-grid">
-
-                            <figure>
-                                <a href="about-srilanka.php">
-                                    <figcaption style="background-image:url(./images/card/3.jpg)">
-                                        <img src="./images/card/3.jpg" alt="" />
-                                    </figcaption>
-                                    <a href="about-srilanka.php" class="btn btn-clean" onclick=""></a>
-                                </a>
-                            </figure>
-
-                        </div>
-
-                        <!-- === item === -->
-
-                        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 card-pd" id="card-2">
-                            <figure>
-                                <a href="round-tours.php">
-                                    <figcaption style="background-image:url(./images/card/2.jpg)" class="round-img">
-                                        <img src="./images/card/2.jpg" alt="" />
-                                    </figcaption>
-                                    <a href="round-tours.php" class="btn btn-clean"></a>
-                                </a>
-                            </figure>
-                        </div>
-
-                        <!-- === item === -->
-
-                        <div class="col-xs-6 col-md-4 col-lg-4 col-sm-6 card-pd">
-                            <figure>
-                                <a href="one-day-tours.php">
-                                    <figcaption style="background-image:url(./images/card/5.jpg)">
-                                        <img src="./images/card/5.jpg" alt="" />
-                                    </figcaption>
-                                    <a href="one-day-tours.php" class="btn btn-clean"></a>
-                                </a>
-                            </figure>
-                        </div>
-
-                        <!-- === item === -->
-
-                        <div class="col-xs-6 col-md-4 col-lg-4 col-sm-6 card-pd">
-                            <figure>
-                                <a href="attraction.php">
-                                    <figcaption style="background-image:url(./images/card/1.jpg)">
-                                        <img src="./images/card/1.jpg" alt="" />
-                                    </figcaption>
-                                    <a href="attraction.php" class="btn btn-clean"></a>
-                                </a>
-                            </figure>
-                        </div>
-
-                        <!-- === item === -->
-
-                        <div class="col-xs-6 col-md-4 card-pd">
-                            <figure>
-                                <a href="activity.php">
-                                    <figcaption style="background-image:url(./images/card/4.jpg)">
-                                        <img src="./images/card/4.jpg" alt="" />
-                                    </figcaption>
-                                    <a href="activity.php" class="btn btn-clean"></a>
-                                </a>
-                            </figure>
-                        </div>
-
-                    </div> <!--/row-->
-
-                </div> <!--/container-->
-            </section>
+     
 
             <section class="about-srilanaka-section m-top">
                 <div class="container">
@@ -254,20 +183,16 @@ $ATTRACTION2 = new Attraction(null);
                                             <?php echo $PROFILE_1->description; ?>
                                         </div>
                                         <div class="col-md-4 col-sm-3 col-xs-12 ">
-                                            <img src="images/srilankatours_owner_image.jpg" alt=""/>
+                                            <img src="images/srilankatours_owner_image.jpg" alt="Nuwan Gunawardena"/>
                                         </div>
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <?php echo $PROFILE_2->description; ?>
                                             Nuwan Gunawardena <br/>
                                             <small>Chairman - Vision Lanka Tours</small>
-
                                         </div>
                                         <div class="signature-img">
-                                            <img src="images/signature.png">
+                                            <img src="images/signature.png" alt="Chairman - signature">
                                         </div>
-                                        <!--                                        <div class="col-md-12 col-sm-6 col-xs-12">
-                                                                                    <p class="nme">Nuwan <br> Vision Lanka Tour </p>
-                                                                                </div>-->
                                     </div>
                                 </div>
 
@@ -354,7 +279,7 @@ $ATTRACTION2 = new Attraction(null);
                                     <!-- GALLERY THUMB START -->
                                     <div class="gallery-thumb th-bg">
                                         <figure>
-                                            <img src="./upload/index-gallery/5.jpg" class="big" alt="Driving" />
+                                            <img src="./upload/index-gallery/5.jpg" class="big" alt="diving" />
                                         </figure>
                                     </div>
                                     <!-- GALLERY THUMB END -->
@@ -363,7 +288,7 @@ $ATTRACTION2 = new Attraction(null);
                                     <!-- GALLERY THUMB START -->
                                     <div class="gallery-thumb th-bg">
                                         <figure>
-                                            <img src="./upload/index-gallery/6.jpg" class="big" alt="Cycling" />
+                                            <img src="./upload/index-gallery/6.jpg" class="big" alt="cycling" />
                                         </figure>
                                     </div>
                                 </div>
@@ -390,13 +315,6 @@ $ATTRACTION2 = new Attraction(null);
             <?php include './footer.php'; ?>
         </div>
 
-        <!--
-             JQuery v1.11.3 
-            <script src="js/jquery.min.js"></script>
-        
-         
-             Library - Bootstrap v3.3.5 
-            <script src="libraries/bootstrap/bootstrap.min.js"></script> Bootstrap JS File v3.3.5 -->
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="owl/owl.carousel.js" type="text/javascript"></script>

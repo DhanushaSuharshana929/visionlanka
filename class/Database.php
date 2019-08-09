@@ -10,6 +10,11 @@
 class Database {
 
 //    private $host = 'localhost';
+//    private $name = 'hhjffjfj_visionlanka';
+//    private $user = 'hhjffjfj_vision';
+//    private $password = ';GZ,JYIHm?)X';
+    
+//      private $host = 'localhost';
 //    private $name = 'islapiiu_visionlankatours';
 //    private $user = 'islapiiu_main';
 //    private $password = 'Ue.t;FNgC?BG,Paf8V';

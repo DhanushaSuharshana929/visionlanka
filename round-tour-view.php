@@ -104,7 +104,7 @@ $TOUR_DATE_PHOTOS_OBJ = new TourDatePhoto(NULL);
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-lg-2 hidden-sm hidden-xs">
-                                    <img src="upload/tour-package/sub-image/<?php echo $VIEW_PACKAGE->sub_image; ?>" width="90%" style="margin-top: 50%;"/>
+                                    <img src="upload/tour-package/sub-image/<?php echo $VIEW_PACKAGE->sub_image; ?>" alt="vision lanka tours" width="90%" style="margin-top: 50%;"/>
                                 </div>
                             </div>
                             <div class="simple-accordian tour-inner-top">
@@ -243,8 +243,8 @@ $TOUR_DATE_PHOTOS_OBJ = new TourDatePhoto(NULL);
                                                             ?>
                                                             <div class="item col-md-4 g-pd">
                                                                 <figure>
-                                                                    <a href="./upload/tour-package/date/gallery/<?php echo $tour_date_photo["image_name"]; ?>" alt="<?php echo $tour_date_photo["title"]; ?>">
-                                                                        <img src="./upload/tour-package/date/gallery/thumb/<?php echo $tour_date_photo["image_name"]; ?>"> 
+                                                                    <a href="./upload/tour-package/date/gallery/<?php echo $tour_date_photo["image_name"]; ?>" >
+                                                                        <img src="./upload/tour-package/date/gallery/thumb/<?php echo $tour_date_photo["image_name"]; ?>" alt="<?php echo $tour_date_photo["title"]; ?>"> 
                                                                     </a>
                                                                 </figure>
                                                             </div>

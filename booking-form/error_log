@@ -1,3 +1,12 @@
 [28-Apr-2019 05:05:34 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 76
 [30-Apr-2019 01:35:47 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 76
 [30-Apr-2019 01:47:11 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 76
+[13-Jun-2019 22:56:56 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 79
+[14-Jun-2019 08:26:56 Asia/Colombo] PHP Parse error:  syntax error, unexpected '$visitor_message' (T_VARIABLE) in /home/islapiiu/sites/visionlanka/booking-form/mail-template.php on line 1
+[13-Jun-2019 23:12:35 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 79
+[18-Jun-2019 08:51:03 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 79
+[18-Jun-2019 23:48:34 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 79
+[18-Jun-2019 23:53:12 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 79
+[26-Jun-2019 07:37:16 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 79
+[26-Jun-2019 07:41:39 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 79
+[26-Jun-2019 23:09:20 America/New_York] PHP Notice:  Undefined index: meal_type in /home/islapiiu/sites/visionlanka/booking-form/send-email.php on line 79

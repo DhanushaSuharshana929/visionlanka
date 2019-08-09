@@ -63,7 +63,7 @@ $ATTRACTION2 = new Attraction(null);
                             <?php echo $ABOUT_SRILANKA->description; ?>
                         </div>
                         <div class="col-md-4">
-                            <img src="images/about-srilanka/lanka-map.png" alt=""/>
+                            <img src="images/about-srilanka/lanka-map.png" alt="map"/>
                         </div>
                     </div>
                     <div class="row mg-top-20">
@@ -80,43 +80,43 @@ $ATTRACTION2 = new Attraction(null);
 
                                 <div class="item ">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/1.jpg" alt=""/>
+                                        <img src="images/about-srilanka/1.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/2.jpg" alt=""/>
+                                        <img src="images/about-srilanka/2.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/3.jpg" alt=""/>
+                                        <img src="images/about-srilanka/3.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/4.jpg" alt=""/>
+                                        <img src="images/about-srilanka/4.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/5.jpg" alt=""/>
+                                        <img src="images/about-srilanka/5.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/6.jpg" alt=""/>
+                                        <img src="images/about-srilanka/6.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/7.jpg" alt=""/>
+                                        <img src="images/about-srilanka/7.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/8.jpg" alt=""/>
+                                        <img src="images/about-srilanka/8.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
 
@@ -139,53 +139,53 @@ $ATTRACTION2 = new Attraction(null);
 
                                 <div class="item ">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/11.jpg" alt=""/>
+                                        <img src="images/about-srilanka/11.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/12.jpg" alt=""/>
+                                        <img src="images/about-srilanka/12.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/13.jpg" alt=""/>
+                                        <img src="images/about-srilanka/13.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/14.jpg" alt=""/>
+                                        <img src="images/about-srilanka/14.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/15.jpg" alt=""/>
+                                        <img src="images/about-srilanka/15.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/16.jpg" alt=""/>
+                                        <img src="images/about-srilanka/16.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/17.jpg" alt=""/>
+                                        <img src="images/about-srilanka/17.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/18.jpg" alt=""/>
+                                        <img src="images/about-srilanka/18.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/19.jpg" alt=""/>
+                                        <img src="images/about-srilanka/19.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-12 gp">
-                                        <img src="images/about-srilanka/20.jpg" alt=""/>
+                                        <img src="images/about-srilanka/20.jpg" alt="vision lanka tours"/>
                                     </div>
                                 </div>
 

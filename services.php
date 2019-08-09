@@ -12,7 +12,7 @@ $SERVICE_OBJ = new Service(null);
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
           <meta name="theme-color" content="#15ba3f">
-        <meta name="description" content="Sri Lanka is the Beautiful Island in the World Famous Tourist Attraction.The Attraction places are gold sandy beaches, sanctuaries and temples, waterfalls, world heritage sites, natural sceneries and the hospitality of Sri Lankans will make your tour a perfect one. We have many excellent places to seen in the country." http-equiv="description" />
+        <meta name="description" content="Sri Lanka is the Beautiful Island in the World Famous Tourist Attraction.The Attraction places are gold sandy beaches, sanctuaries and temples, waterfalls, world heritage sites, natural sceneries and the hospitality of Sri Lankans will make your tour a perfect one. We have many excellent places to seen in the country."/>
         <meta name="keywords" content="vision lanka tours, airport transfer, airport transfer in sri lanka, airport drop off, airport pickup, tour arrange, hotel booking ,  hotel booking in sri lanka, accommodation in sri lanka">
 
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
@@ -68,7 +68,7 @@ $SERVICE_OBJ = new Service(null);
                                                         </div>
                                                     </div>							
                                                     <div class="media-body">
-                                                        <h2><a href="#"><?php echo $service["title"]; ?></a></h2>
+                                                        <h2><a href="#service"><?php echo $service["title"]; ?></a></h2>
                                                     </div>	
                                                     <?php echo $service["description"]; ?>
 

@@ -1,5 +1,3 @@
-
-
 <div class="container-fluid photos-slider header1-slider no-padding slider-section">
     <div  class="chr_banner banner-hotel">
         <ul class="slider arrows">
@@ -16,9 +14,9 @@
                                 <div class="chr_banner_caption container">
                                     <div class="chr-caption">
 
-                                        <img src="images/slider/trip-ad.png" data-animation="fadeInLeft" data-delay="0.4s" class="chr-caption-img">
+                                        <img src="images/slider/trip-ad.png" alt="slider-tripadvisor" data-animation="fadeInLeft" data-delay="0.4s" class="chr-caption-img">
 
-                                        <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo $slider["description"]; ?></h6>
+                                        <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo substr($slider["description"], 3,-4);?></h6>
 
                                     </div>
                                 </div>
@@ -37,9 +35,9 @@
                                 <div class="chr_banner_caption container">
                                     <div class="chr-caption">
 
-                                        <img src="images/slider/trip-ad.png" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
+                                        <img src="images/slider/trip-ad.png" alt="slider-tripadvisor" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
 
-                                        <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo $slider["description"]; ?></h6>
+                                        <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo substr($slider["description"], 3,-4);?></h6>
 
 
 
@@ -60,9 +58,9 @@
                                 <div class="chr_banner_caption container">
                                     <div class="chr-caption">
 
-                                        <img src="images/slider/trip-ad.png" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
+                                        <img src="images/slider/trip-ad.png" alt="slider-tripadvisor" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
 
-                                      <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo $slider["description"]; ?></h6>
+                                      <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo substr($slider["description"], 3,-4);?></h6>
 
 
 
@@ -83,9 +81,9 @@
                                 <div class="chr_banner_caption container">
                                     <div class="chr-caption">
 
-                                        <img src="images/slider/trip-ad.png" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
+                                        <img src="images/slider/trip-ad.png" alt="slider-tripadvisor" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
 
-                                     <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo $slider["description"]; ?></h6>
+                                     <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo substr($slider["description"], 3,-4);?></h6>
 
 
 
@@ -106,9 +104,9 @@
                                 <div class="chr_banner_caption container">
                                     <div class="chr-caption">
 
-                                        <img src="images/slider/trip-ad.png" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
+                                        <img src="images/slider/trip-ad.png" alt="slider-tripadvisor" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
 
-                                        <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo $slider["description"]; ?></h6>
+                                        <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo substr($slider["description"], 3,-4);?></h6>
 
 
 
@@ -128,8 +126,8 @@
                             <div class="chr-caption-wrapper caption-right-bottom caption-container-top">
                                 <div class="chr_banner_caption container">
                                     <div class="chr-caption">
-                                    <img src="images/slider/trip-ad.png" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
-                                    <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo $slider["description"]; ?></h6>
+                                    <img src="images/slider/trip-ad.png" alt="slider-tripadvisor" data-animation="fadeInRight" data-delay="0.4s" class="chr-caption-img">
+                                    <h6 data-animation="fadeInUp" data-delay="0.3s" class="chr-caption-text"><?php echo substr($slider["description"], 3,-4);?></h6>
                                     </div>
                                 </div>
                             </div>
@@ -140,19 +138,8 @@
                 }
             }
             ?>
-
-
-
-
         </ul>
 
     </div>
 
 </div> 
-<!--<img src="images/vision-b.png" class="slider-footer">-->
-
-
-<!--<div class="container-fluid photos-slider header1-slider no-padding">
-    
-
-</div> / Photo Slider -->

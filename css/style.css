@@ -2407,7 +2407,14 @@ fieldset{
     font-family: Gadugi;
 }
 .q-ct:hover{
-      color: #fff;
+    color: #fff;
+}
+.footer-title{
+    color: #c4c4c4;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 
