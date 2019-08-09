@@ -26,7 +26,7 @@ if (isset($_POST['create'])) {
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = $img;
         $handle->image_x = 900;
-        $handle->image_y = 500;
+        $handle->image_y = 600;
 
         $handle->Process($dir_dest);
 
@@ -42,8 +42,8 @@ if (isset($_POST['create'])) {
         $handle->file_new_name_ext = 'jpg';
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = $img;
-        $handle->image_x = 300;
-        $handle->image_y = 166;
+        $handle->image_x = 400;
+        $handle->image_y = 266;
 
         $handle->Process($dir_dest_thumb);
 
@@ -99,7 +99,7 @@ if (isset($_POST['update'])) {
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = $img;
         $handle->image_x = 900;
-        $handle->image_y = 500;
+        $handle->image_y = 600;
 
         $handle->Process($dir_dest);
 
@@ -115,9 +115,9 @@ if (isset($_POST['update'])) {
         $handle->file_new_name_ext = FALSE;
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = $img;
-        $handle->image_x = 300;
-        $handle->image_y = 166;
-
+        $handle->image_x = 400;
+        $handle->image_y = 266;
+        
         $handle->Process($dir_dest_thumb);
 
         if ($handle->processed) {

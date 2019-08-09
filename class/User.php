@@ -13,7 +13,6 @@ class User {
     public $email;
     public $createdAt;
     public $isActive;
-    public $authToken;
     public $lastLogin;
     public $username;
     public $resetCode;
@@ -22,7 +21,7 @@ class User {
     public function __construct($id) {
         if ($id) {
 
-            $query = "SELECT `id`,`name`,`email`,`createdAt`,`isActive`,`authToken`,`lastLogin`,`username`,`resetcode` FROM `user` WHERE `id`=" . $id;
+            $query = "SELECT `id`,`name`,`email`,`createdAt`,`isActive`,`lastLogin`,`username`,`resetcode` FROM `user` WHERE `id`=" . $id;
 
             $db = new Database();
 
@@ -35,7 +34,6 @@ class User {
             $this->isActive = $result['isActive'];
             $this->lastLogin = $result['lastLogin'];
             $this->username = $result['username'];
-            $this->authToken = $result['authToken'];
             $this->resetCode = $result['resetcode'];
 
             return $result;
@@ -77,7 +75,7 @@ class User {
             return FALSE;
         } else {
             $this->id = $result['id'];
-            $this->setAuthToken($result['id']);
+
             $this->setLastLogin($this->id);
 
             $user = $this->__construct($this->id);
@@ -131,27 +129,13 @@ class User {
         }
 
         $id = NULL;
-        $authToken = NULL;
 
-        if (isset($_SESSION["id"])) {
+
+        if (isset($_SESSION["id"]) == 1) {
             $id = $_SESSION["id"];
-        }
-
-        if (isset($_SESSION["authToken"])) {
-            $authToken = $_SESSION["authToken"];
-        }
-
-        $query = "SELECT `id` FROM `user` WHERE `id`= '" . $id . "' AND `authToken`= '" . $authToken . "'";
-
-        $db = new Database();
-
-        $result = mysql_fetch_array($db->readQuery($query));
-
-        if (!$result) {
-            return FALSE;
-        } else {
-
             return TRUE;
+        } else {
+            return FALSE;
         }
     }
 
@@ -165,7 +149,6 @@ class User {
         unset($_SESSION["name"]);
         unset($_SESSION["email"]);
         unset($_SESSION["isActive"]);
-        unset($_SESSION["authToken"]);
         unset($_SESSION["lastLogin"]);
         unset($_SESSION["username"]);
 
@@ -202,25 +185,9 @@ class User {
         $_SESSION["name"] = $user['name'];
         $_SESSION["email"] = $user['email'];
         $_SESSION["isActive"] = $user['isActive'];
-        $_SESSION["authToken"] = $user['authToken'];
+
         $_SESSION["lastLogin"] = $user['lastLogin'];
         $_SESSION["username"] = $user['username'];
-    }
-
-    private function setAuthToken($id) {
-
-        $authToken = md5(uniqid(rand(), true));
-
-        $query = "UPDATE `user` SET `authToken` ='" . $authToken . "' WHERE `id`='" . $id . "'";
-
-        $db = new Database();
-
-        if ($db->readQuery($query)) {
-
-            return $authToken;
-        } else {
-            return FALSE;
-        }
     }
 
     private function setLastLogin($id) {
@@ -291,10 +258,10 @@ class User {
             return $result;
         }
     }
-    
-     public function SelectResetCode($code) {
 
-      $query = "SELECT `id` FROM `user` WHERE `resetcode`= '" . $code . "'";
+    public function SelectResetCode($code) {
+
+        $query = "SELECT `id` FROM `user` WHERE `resetcode`= '" . $code . "'";
 
         $db = new Database();
 
@@ -307,10 +274,9 @@ class User {
             return TRUE;
         }
     }
-    
-    
-     public function updatePassword($password,$code) {
-  
+
+    public function updatePassword($password, $code) {
+
         $enPass = md5($password);
 
         $query = "UPDATE  `user` SET "

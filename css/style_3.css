@@ -665,8 +665,12 @@ div.panel.show {
     .main-title h3{
         margin-top: 5px;
     }
+    .desc-office1{
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0);
+        position: relative;
+    }
     .about-inner{
-        margin-top: 550px;
+/*        margin-top: 550px;*/
     }
     .ab-top{
         margin-top: 0px;
@@ -715,12 +719,19 @@ div.panel.show {
      .service-thumb{
      margin-top: 30px;   
     }
-  
+  .desc-office1{
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0);
+        position: relative;
+    }
 }
 @media (min-width: 374px) and (max-width: 400px){
     .cards-container {
         margin-right: 0%;
         width: 100%;
+    }
+    .desc-office1{
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0);
+        position: relative;
     }
     .cards figure a {
         font-size: 26px;
@@ -820,6 +831,10 @@ div.panel.show {
         left: 50%;
         top: 80%;
     }
+    .desc-office1{
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0);
+        position: relative;
+    }
     .round {
         left: 50%;
         top: 80%;
@@ -849,7 +864,7 @@ div.panel.show {
         margin-top: 5px;
     }
     .about-inner{
-        margin-top: 510px;
+/*        margin-top: 510px;*/
     }
     .ab-top{
         margin-top: -80px;
@@ -877,6 +892,10 @@ div.panel.show {
 @media (min-width: 414px) and (max-width: 768px){
     .awesome-place-item img{
         width:100%;
+    }
+    .desc-office1{
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0);
+        position: relative;
     }
     .cards-container {
         margin-right: 0%;
@@ -926,7 +945,7 @@ div.panel.show {
         font-size: 30px;
     }
     .about-inner{
-        margin-top: 350px;
+/*        margin-top: 350px;*/
     }
     .ab-top{
         margin-top: 0px;

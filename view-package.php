@@ -105,7 +105,7 @@ $TOUR_DATE_PHOTOS_OBJ = new TourDatePhoto(NULL);
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-lg-2 hidden-sm hidden-xs">
-                                    <img src="upload/tour-package/sub-image/<?php echo $VIEW_PACKAGE->sub_image; ?>" width="90%" style="margin-top: 30%;-moz-box-shadow: 3px 3px 5px 6px #ccc;-webkit-box-shadow: 3px 3px 5px 6px #ccc;box-shadow:3px 3px 5px 6px #ccc;"/>
+                                    <img src="upload/tour-package/sub-image/<?php echo $VIEW_PACKAGE->sub_image; ?>" width="90%" alt="vision lanka tours" style="margin-top: 30%;-moz-box-shadow: 3px 3px 5px 6px #ccc;-webkit-box-shadow: 3px 3px 5px 6px #ccc;box-shadow:3px 3px 5px 6px #ccc;"/>
                                 </div>
                             </div>
                             <div class="simple-accordian tour-inner-top">
@@ -245,7 +245,7 @@ $TOUR_DATE_PHOTOS_OBJ = new TourDatePhoto(NULL);
                                                             <div class="item col-md-4 g-pd">
                                                                 <figure>
                                                                     <a href="./upload/tour-package/date/gallery/<?php echo $tour_date_photo["image_name"]; ?>" alt="<?php echo $tour_date_photo["title"]; ?>">
-                                                                        <img src="./upload/tour-package/date/gallery/thumb/<?php echo $tour_date_photo["image_name"]; ?>"> 
+                                                                        <img src="./upload/tour-package/date/gallery/thumb/<?php echo $tour_date_photo["image_name"]; ?>" alt="vision lanka"> 
                                                                     </a>
                                                                 </figure>
                                                             </div>
@@ -277,20 +277,20 @@ $TOUR_DATE_PHOTOS_OBJ = new TourDatePhoto(NULL);
                                                     <?php
                                                     if ($id === "11") {
                                                         ?>
-                                                        <img class="map-img-2" src="images/map/11.jpg" alt=""/>
+                                                        <img class="map-img-2" src="images/map/11.jpg" alt="tour map"/>
                                                         <?php
                                                     } elseif ($id === "12") {
                                                         ?>
-                                                        <img class="map-img-2" src="images/map/12.jpg" alt=""/>
+                                                        <img class="map-img-2" src="images/map/12.jpg" alt="tour map"/>
                                                         <?php
                                                     } elseif ($id === "13") {
                                                         ?>
-                                                        <img class="map-img-2" src="images/map/13.jpg" alt=""/>
+                                                        <img class="map-img-2" src="images/map/13.jpg" alt="tour map"/>
                                                        
                                                         <?php
                                                     } elseif ($id === "14") {
                                                         ?>
-                                                        <img class="map-img-2" src="images/map/14.jpg" alt=""/>
+                                                        <img class="map-img-2" src="images/map/14.jpg" alt="tour map"/>
                                                         <?php
                                                     } else {
                                                         
