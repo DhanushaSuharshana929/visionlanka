@@ -54,6 +54,18 @@ $ATTRACTION2 = new Attraction(null);
             <section id="about-me" class="about-srilanaka-section  mg-bottom-50">
                 <div class="container">
                     <div class="row">
+                        <div class="col-md-3">
+                            <div class="about-head-topic">
+                                <h2>Our Team</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="about-head-topic">
+                                <h2>About Us....</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-6">
                             <img src="images/about-me/group.jpg" alt="office" />
                             <p class="company-slogan">Welcome as a visitor ....Good bye as a best friend .....that is what our staff doing...</p>
@@ -61,27 +73,42 @@ $ATTRACTION2 = new Attraction(null);
                                 <div class="col-md-4">
                                     <h5>Great Advisor....</h5>
                                     <div class="row">
-                                        <div class="col-md-9 text-center">
-                                            <img src="images/about-me/image-1.jpg" style="width: 105px;"/>
+                                        <div class="col-md-9 col-xs-5 col-sm-5 text-center">
+                                            <div class="col-md-12 box member-background">
+                                                <h6>Asanka</h6>
+                                                <img src="images/about-me/asanka.jpg" class="member-img"/>
+                                            </div>
                                         </div>
-                                        <div class="col-md-3">
-                                            <img src="images/about-me/arrow.JPG" class="hidden-xs hidden-sm arrow-design"/>
+                                        <div class="col-md-3 col-xs-3 col-sm-3">
+                                            <div class="col-md-12 arrow-design">
+                                                <img src="images/about-me/arrow.JPG" class="hidden-xs hidden-sm"/>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h5>Our Senior Members....</h5>
+                                    <h5 class="senior">Our Senior Members....</h5>
                                     <div class="row">
-                                        <div class="col-md-4 col-xs-4 col-sm-4 team-mb">
-                                            <img src="images/about-me/image-2.jpg"/>
+                                        <div class="col-md-4 col-xs-4 col-sm-4 text-center team-mb" style="padding-left: 0px; padding-right: 0px;">
+                                            <div class="col-md-12 box member-background">
+                                                <h6>Pradeep</h6>
+                                                <img src="images/about-me/pradeep.jpg" class="member-img"/>
+                                            </div>
                                         </div>
-                                        <div class="col-md-4 col-xs-4 col-sm-4  team-mb">
-                                            <img src="images/about-me/image-3.jpg"/>
+                                        <div class="col-md-4 col-xs-4 col-sm-4 text-center team-mb" style="padding-left: 0px; padding-right: 0px;">
+                                            <div class="col-md-12 box member-background">
+                                                <h6>Susantha</h6>
+                                                <img src="images/about-me/susantha.jpg" class="member-img"/>
+                                            </div>
                                         </div>
-                                        <div class="col-md-4 col-xs-4 col-sm-4 team-mb">
-                                            <img src="images/about-me/image-4.jpg"/>
+                                        <div class="col-md-4 col-xs-4 col-sm-4 text-center team-mb" style="padding-left: 0px; padding-right: 0px;">
+                                            <div class="col-md-12 box member-background">
+                                                <h6>Chamara</h6>
+                                                <img src="images/about-me/chamara.jpg" class="member-img"/>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="driver-section">
@@ -101,8 +128,11 @@ $ATTRACTION2 = new Attraction(null);
                                 <br>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <img src="images/about-me/about-me.JPG" alt="office" />
+                        <div id="owner" class="col-md-3">
+                            <div class="col-md-12 member-background">
+                                <h5>About Me...</h5>
+                                <img src="images/about-me/nuwan.jpg" alt="office" style="margin-bottom: 15px; border: 1px solid #026cb1;"/>
+                            </div>
                             <p><strong>Nuwan Gunawardana</strong> | Founder</p>
 
                             <p style="margin-bottom: 0px;"><strong>Experience : </strong></p>
@@ -134,25 +164,25 @@ $ATTRACTION2 = new Attraction(null);
 
                             </p>
                         </div>
-                        <div class="col-md-3">
+                        <div id="info" class="col-md-3">
                             <h5 style="color: #186ea4;">Why you can trust us...</h5>
-                            <div class="blue-container" >
-                                <p style="margin-bottom: 0px;"><strong>Government Reg.No : </strong></p>
+                            <div class="blue-container">
+                                <p><strong>Government Reg.No : </strong></p>
                                 <ul>
                                     <li>1/19/10/2017-10-26/4</li>
                                 </ul>
 
-                                <p style="margin-bottom: 0px;"><strong>Main Email Address : </strong></p>
+                                <p><strong>Main Email Address : </strong></p>
                                 <ul>
                                     <li>visionlankatours@gmail.com</li>
                                 </ul>
 
-                                <p style="margin-bottom: 0px;"><strong>Private Email Address : </strong></p>
+                                <p><strong>Private Email Address : </strong></p>
                                 <ul>
                                     <li>yesnuwan@gmail.com</li>
                                 </ul>
 
-                                <p style="margin-bottom: 0px;"><strong>Private Address : </strong></p>
+                                <p><strong>Private Address : </strong></p>
                                 <ul>
                                     <li>No:110 B,</li>
                                     <li>Eramudugaha Juncrion,</li>
@@ -160,20 +190,20 @@ $ATTRACTION2 = new Attraction(null);
                                     <li>Galle.</li>
                                 </ul>
 
-                                <p style="margin-bottom: 0px;"><strong>Office Address   : </strong></p>
+                                <p><strong>Office Address   : </strong></p>
                                 <ul>
                                     <li>‘Thisarana’Metaramba,</li>
                                     <li>Unawatuna.</li>
                                 </ul>
 
-                                <p style="margin-bottom: 0px;"><strong>Contact Details : </strong></p>
+                                <p><strong>Contact Details : </strong></p>
                                 <ul>
                                     <li>Fix Phones : +94 91 222 6624</li>
                                     <li>Mobile Phones : +94 77 785 5985 +94 77 316 2812</li>
                                     <li>Fax : +94 91 222 6624</li>
                                 </ul>
 
-                                <p style="margin-bottom: 0px;"><strong>Social Media Details : </strong></p>
+                                <p><strong>Social Media Details : </strong></p>
                                 <ul>
                                     <li>Facebook : www.face../visionlankatours/</li>
                                     <li>WhatsApp : +94 77 785 5985</li>
@@ -181,7 +211,7 @@ $ATTRACTION2 = new Attraction(null);
                                     <li>Imo : +94 77 785 5985</li>
                                 </ul>
 
-                                <p style="margin-bottom: 0px;"><strong>Bank Details : </strong></p>
+                                <p><strong>Bank Details : </strong></p>
                                 <ul>
                                     <li>Bank / code : Sampath Bank (7278)</li>
                                     <li>Branch / code : Galle Super (035)</li>
@@ -225,50 +255,46 @@ $ATTRACTION2 = new Attraction(null);
                 
                                         </div>
                                     </div>-->
+
+            </section>
         </div>
 
+        <div id="back-top">
+            <a href="#top" class="link">
+                <i class="fa fa-angle-double-up"></i>
+            </a>
+        </div>
 
+        <?php include './footer.php'; ?>
 
-    </section>
-
-
-
-    <div id="back-top">
-        <a href="#top" class="link">
-            <i class="fa fa-angle-double-up"></i>
-        </a>
     </div>
 
-    <?php include './footer.php'; ?>
-
-</div>
-
-<script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="owl/owl.carousel.js" type="text/javascript"></script>
-<script src="js/magnific-popup.min.js" type="text/javascript"></script>
-<script src="js/theme.js" type="text/javascript"></script>
-<script src="js/custom.js" type="text/javascript"></script>
-<script src="js/main.js" type="text/javascript"></script>
-<script>
-    $('.about-srilanka-owl').owlCarousel({
-        loop: true,
-        margin: 10,
-        dots: false,
-        nav: false,
-        autoplay: 1000,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 3
-            },
-            1000: {
-                items: 4
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="owl/owl.carousel.js" type="text/javascript"></script>
+    <script src="js/magnific-popup.min.js" type="text/javascript"></script>
+    <script src="js/theme.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script>
+        $('.about-srilanka-owl').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: false,
+            nav: false,
+            autoplay: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
             }
-        }
-    });
-</script>
+        });
+    </script>
 </body>
 </html>
