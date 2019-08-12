@@ -36,7 +36,9 @@
         margin-top: 0px;
         width: 73%; 
     }
-
+    .about-srilanaka-section h5 {
+    font-size: 25px;
+    }
 }
 @media(min-width: 1921px) {
     .site-header.header-one {
@@ -645,7 +647,9 @@
         width: 25%!important;
         float: none!important;
     }
-
+    .team-mb{
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 575px) {
